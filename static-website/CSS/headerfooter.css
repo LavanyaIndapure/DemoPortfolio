@@ -1,0 +1,137 @@
+/* *
+{
+    margin: 0;
+} */
+
+header img
+{
+    height: 25px;
+    margin: 5px 0px 0px 5px;
+}
+
+header
+{
+    /* position: sticky;
+    top: 0; */
+    font-family: 'Brush Script MT',cursive;
+    font-size: 25px;
+    background-color: #ede4f3;
+    color: purple
+}
+/* .group
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
+/* .bottom
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+.x
+{
+    font-size: 30px;
+}
+
+nav
+{
+    overflow: hidden;
+    text-align: right;
+    padding: 10px;
+    background: rgb(178, 166, 231); 
+
+}
+
+
+
+nav a
+{    
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 10px;
+}
+
+.f1
+{
+    padding: 10px;
+    background-color: rgb(99, 89, 192);
+}
+.df1
+{
+    word-spacing: 8px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.current
+{
+    background-color: rgb(106, 7, 199);
+    color: #fff;
+}
+.df1 i
+{
+    color: #fff;
+}
+.emj
+{
+    font-size: 70px;
+}
+.df1 i:hover
+{
+    color: black;
+}
+th
+{
+    color: rgb(133, 43, 207);
+    text-align: left;
+    font-size: larger;
+}
+.df2
+{
+    color: white; 
+    padding-top:7px;
+    background-color: rgb(85, 6, 131);
+    text-align: center;
+}
+
+.img
+{
+    background-color: rgb(226, 172, 100);
+}
+
+@media all and (max-width:480px)
+{
+    nav a
+    {
+        display: flex;
+        text-align: left;
+        padding: 8px;
+    }
+}
+@media all and (max-width:645px)
+{
+    .emj
+    {
+        font-size: 30px;
+    }
+    table
+    {
+        border-spacing: 20px 0px;
+    }
+}
+@media all and (max-width:336px)
+{
+    .header img
+    {
+        margin-top: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+}
+
+

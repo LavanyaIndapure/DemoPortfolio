@@ -1,0 +1,13 @@
+table,td
+{
+    color: rgb(105, 26, 179);
+    margin-left: 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+   
+}
+
+.info
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}

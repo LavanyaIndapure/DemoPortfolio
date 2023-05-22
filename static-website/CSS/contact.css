@@ -1,0 +1,51 @@
+.content
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+table
+{
+    border-spacing: 40px 0px;
+}
+td
+{
+    text-align: center;
+}
+@media all and (max-width:645px)
+{
+    .emj
+    {
+        font-size: 25px;
+    }
+    table
+    {
+        border-spacing: 0px 0px;
+    }
+    th
+    {
+        font-size: medium;
+        word-wrap: normal;
+    }
+}
+@media all and (max-width:447px)
+{
+    .content
+    {
+        display:inline-flex;
+        grid-template-columns: 0fr 1fr;
+    }
+    .content div img
+    {
+        width: 0px;
+    }
+}
+
+a
+{
+    color: rgb(133, 43, 207);
+    text-decoration: none;
+}
+.info
+{
+    margin-top: 7%;
+}
